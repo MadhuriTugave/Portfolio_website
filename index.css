@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(107, 210, 236);
+    /* position: relative; */
+  
+  }
+  
+  #Name:hover{
+       scale: 1.1;
+      color: blue;
+  }
+
+
+  #heading_text{
+  font-family: Georgia, 'Times New Roman', Times, serif;  
+background-color: rgba(0,0,0, 0.4); 
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 80%;
+padding: 20px;
+text-align: center;
+
+  }
+
+  #image{
+    height: 60vh;
+     width: 100%; 
+     background-image: url(/web\ developer.webp);
+     background-repeat: no-repeat;
+     background-size:contain;
+
+  }
+  #img{
+    height: 90px;
+    width: 90px;
+    /* margin: 5px; */
+    margin-right: 10px;
+   
+  }
+  #divhight{
+    height: 520px;
+    width: 240px;
+  }
+  .scal:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+ }
+  
+  #navimg{
+    height: 55px;
+    width: 60px;
+     
+  }
+  #img1{
+    height: 70px;
+    width: 80px;
+    margin-right: 8px;
+  }
+  .techskills {
+    animation-fill-mode: both;
+    animation-duration: 3000ms;
+    animation-delay: 0ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: techskillanimation;
+  }
+  @keyframes techskillanimation {
+    0% {
+      opacity: 0;
+      transform: translate3d(100%, 0px, 0px);
+    }
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+ 
+  .about-animate { animation: fadeIn 5s; }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+ 
+  
+  
+  @media only screen and (max-width: 560px) {
+    .file{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+  }
+  .h{
+    height:800px;
+    width: fit-content;
+  }
+  #img2{
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  #img3{
+    height: 40px;
+    width: 45px;
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  .phone{
+    font-size:36px
+  }
+  
