@@ -1,5 +1,6 @@
 body{
-    background-color:rgb(107, 210, 236);
+    /* background-color:rgb(107, 210, 236); */
+    background-color:rgba(69, 130, 187, 0.685);
     /* position: relative; */
   
   }
@@ -32,7 +33,11 @@ text-align: center;
      background-size:contain;
 
   }
- 
+ .link {
+  color: rgba(0, 0, 0, 0.61);
+ }
+ .link:hover {
+  color: rgb(219, 238, 238); }
  
   #img{
     height: 90px;
@@ -61,6 +66,7 @@ text-align: center;
     width: 60px;
      
   }
+ 
   #img1{
     height: 70px;
     width: 80px;
