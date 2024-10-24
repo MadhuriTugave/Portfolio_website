@@ -1,7 +1,10 @@
 body{
     /* background-color:rgb(107, 210, 236); */
-    background-color:rgba(69, 130, 187, 0.685);
+    
     /* position: relative; */
+    max-width: 1200px;
+    margin: auto;
+    background-color:rgba(69, 130, 187, 0.685);
   
   }
   
